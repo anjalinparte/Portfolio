@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protpoliyo website</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/Your paragraph text.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contect">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Mern Stack Developer</p>
+                <h1>Hi, I'm <span>Anjali</span><br> Parte From Balaghat</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/an.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Anjali Parte i have complete Graduate. I am a frontend Engineer with experience in building clean and responsive web
+                              application using frameworks like ReactJs , TailwindCSS   etc… I have a great interest in  web  development.  
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                        <!--<p class="tab-links" onclick="opentab('Experience')">Experience</p>--> 
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C/C++</span><br>Programming</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>java</span><br>Basic </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            
+                            <li><span>2018</span><br>10th complete G.H.S.School</li>
+                            <li><span>2021</span><br>12th complete G.H.S.School<br></li>
+                            <li><span>2025</span><br>B.tech from VITS</li>
+                        </ul>
+                    </div>
+                    <!--   <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Training at Et Institute</li>
+                            <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Excutive at Coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------service--------------->
+
+<div id="services">
+    <div class="container">
+    <h1 class="sub-title">My Skills</h1>
+    <div class="services-list">
+    <div>
+        <h2>web Develovpment</h2>
+        <p>Basic Knowledgw of web technologies, such as HTML,CSS,React,TailwindsCSS and Bootstrap for designing clean and 
+              user -friendly websites.</p>
+    <a href="#">Learn more</a>
+    </div>
+    <div>
+        <h2>C/C++</h2>
+        <p>I have done C++ Vishwatwch and I have also created a library Project realated to it.</p>
+    <a href="#">Learn more</a>
+    </div>
+    <div>
+        <h2>Basic Java</h2>
+        <p>I have just started learning java. I am tying to gain a good command over java.</p>
+    <a href="#">Learn more</a>
+    </div>
+ </div>
+    </div>
+</div>
+
+<!-------------------------portfollio------------------------------>
+<div id="portfolio">
+    <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist">
+            <div class="work">
+                <img src="image/Airbnb.jpg" >
+                <div class="layer">
+                    <h3>Airbnb Website</h3>
+                    <p> The app connects you yo the talented people around the world. 
+                        download it from play store.
+                    </p>
+                <a href="https://major-project-6vqe.onrender.com/listings"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/Music.jpg" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p> The app connects you yo the talented people around the world. 
+                        download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/We.jpg" >
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p> The app connects you yo the talented people around the world. 
+                        download it from play store.
+                    </p>
+                    <a href="https://weather-app-phi-black-12.vercel.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------------------------contect-------------------------------->
+
+<div id="contect">
+    <div class="container">
+        <div class="row">
+            <div class="contect-left">
+            
+            <h1 class="sub-title"> Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>parteanjali983@gmial.com</p>
+            <p><i class="fa-solid fa-phone"></i>9329795693</p>
+            <div class="socile-icons">
+                <!-----------------font lagana he ------------------->
+                    <a href="mailto:parteanjali983@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/Anjalinparte"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/anjaliparte"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="image/Anjalinn_Resume.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contect-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> @--------------<i class="fa-solid fa-heart"></i>Anjali Parte <i class="fa-solid fa-heart"></i>-------------------@</p>
+    <!---------heart font lagana he---------->
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks ){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent  of tabcontents  ){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+        </script>
+
+        <script>
+
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxEVsT1DJ4o_M3Gbfk3ts9TrPoAzcLP9gsWMwyAplgnvDbG5LQgJ87UX3RqCKljAo5o/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message send successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
